@@ -83,7 +83,7 @@ app.post('/api/shorturl', (req, res, next) => {
         }
       });
 
-      res.json({ originalURL: originalURL, short_url: shortenedURL })
+      res.json({ original_url: originalURL, short_url: shortenedURL })
     };
   });
 });
